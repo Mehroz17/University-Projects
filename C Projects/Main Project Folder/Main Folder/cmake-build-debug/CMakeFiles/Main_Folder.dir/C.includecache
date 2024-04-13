@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Comsats Lahore/SEMESTER 3/Subjects/DSA/DSA Lab/Assignments/Project/Main Project Folder/Main Folder/main.c
+stdio.h
+-
+malloc.h
+-
+string.h
+-
+
