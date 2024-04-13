@@ -1,0 +1,28 @@
+package week2;
+
+public class Car {
+
+	//1. state -- data
+	String manufacturerName;
+	String color;
+	String engineCapacity;
+	double speed = 0;
+	int gear = 0;
+	String modelNumber;
+	int numberOfSeats;
+	
+	//2. methods -- behavior
+	
+	//method for changing gears
+	int gearChange(int gearValue) {
+		return gear = gear + gearValue;
+	}
+	
+	void speedUp(double speedValue) {
+		speed = speed + speedValue;
+	}
+	
+	void showSpeed() {
+		System.out.print("Speed on dashboard is : ");
+		System.out.println(speed);
+	}

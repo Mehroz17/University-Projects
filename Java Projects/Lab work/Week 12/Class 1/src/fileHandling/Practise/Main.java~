@@ -1,0 +1,43 @@
+package fileHandling.Practise;
+
+import java.io.*;
+
+public class Main {
+    public static void main(String [] args) throws IOException {
+
+        System.out.println("File Handling");
+
+        //Creating a File
+        File f1 = new File("E:\\Comsats Lahore\\SEMESTER 2\\OOP Java\\Lab\\Lab work\\Week 12\\TExtFiles/r.txt");
+        if (f1.exists()) {
+            System.out.println("File Exists");
+
+        } else {
+            f1.createNewFile();
+            System.out.println("File is created");
+
+        }
+
+//        FileOutputStream fos = new FileOutputStream(f1);
+//        fos.write('h');
+
+//File Reading
+        FileInputStream fr = new FileInputStream(f1);
+
+    int n;
+    do {
+        n =fr.read();
+        System.out.print((char)n);
+    }while (n!=-1);
+
+//Buffered Writer
+        FileWriter fw = new FileWriter(f1);
+        BufferedWriter br = new BufferedWriter(fw);
+        br.append("Mehroz");
+
+        //buffered Reader
+        FileReader fileReader = new FileReader(f1);
+        BufferedReader b1 = new BufferedReader(fileReader);
+        
+    }
+}

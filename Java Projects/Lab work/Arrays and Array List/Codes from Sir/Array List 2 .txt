@@ -1,0 +1,48 @@
+for (int a : registration) {
+			System.out.println(a);
+		}
+		
+		System.out.println(registration.get(2));
+		
+		registration.set(3, 80);
+		System.out.println(registration);
+		
+		//registration.remove(3);
+		//System.out.println(registration.size());
+//2. multidimensional arrays (Java don't have this concept as the other languages have)
+		
+		/*int[][] reg = new int[2][3];	//be default all of these entries they will be set to zero 
+		
+		reg[0][0] = 1;
+		reg[0][1] = 2;
+		reg[0][2] = 3;
+		
+		reg[1][0] = 4;
+		reg[1][1] = 5;
+		reg[1][2] = 6;
+		
+		int[] dummy = new int[2];
+		System.out.println(dummy.length);
+		
+		System.out.println(reg.length);
+		
+		for (int i=0;i<reg.length;i++) {
+			for (int j=0;j<reg[i].length;j++) {
+				
+Muhammad Ali Khan4:25 PM
+	System.out.println(reg[i][j]);
+			}
+		}*/
+		
+		//3. Irregular dimension array
+		
+		/*int[][] subjects = new int[][] {
+			
+			{1,2,3},
+			{4,5,6,7,8},
+			{9,10}
+			
+		};
+		
+		System.out.println(subjects[2].length);*/
+		

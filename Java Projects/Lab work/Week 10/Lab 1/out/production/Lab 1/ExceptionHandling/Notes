@@ -1,0 +1,24 @@
+
+Definiton:
+"The Exception Handling in Java is one of the powerful mechanism to
+handle the runtime errors so that normal flow of the application can be maintained."
+
+
+every software build by developers have some specific flow
+The flow is developed by the developer.
+Flow means:
+What we want to enter and what will be the flow of the inputs and outputs.
+Abnormal Flow:
+To handle abnormal flows we use "Exceptions".
+In software systems we have "events". Events means that from which we are getting input
+1.button click , mouse click,
+2. Method call
+
+
+To handle Exceptions:
+To abnormal flow ,use "Try ,catch" to handel exceptions
+by default Java provides try and catch structure
+we can have multiple catch statements
+Types:
+1.Uncheck Exception (in this compiler has no issues but we have run time issue with the input)
+it is also called "run time exceptions"

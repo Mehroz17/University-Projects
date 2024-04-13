@@ -1,0 +1,20 @@
+	//Arrays disadvantages
+		//1. fixed size
+		//2. Modification is very difficult
+		//3. Removing something from the array, index management poor
+		
+		//ArrayList
+		//Re-sizable array
+		
+		ArrayList <Integer> registration = new ArrayList<Integer>();
+		
+		registration.add(7);
+		registration.add(8);
+		registration.add(10);
+		registration.add(7);
+		registration.add(8);
+		registration.add(10);
+		
+		System.out.println(registration.size());
+		
+		System.out.println(registration);

@@ -1,0 +1,73 @@
+package list;
+
+import java.util.ArrayList;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		//Array list - fancy word for arrays but
+		//re-sizable array - index management is good
+		//works on objects
+		
+		//int[] count = new int[350100];
+		
+		//out of bound
+		
+		
+		/*ArrayList <Integer> list = new ArrayList <Integer>();
+		
+		//to add to array list
+		
+		list.add(7);
+		list.add(10);
+		list.add(54);
+		
+		//printing the array list
+		System.out.println(list);
+		
+		//to get the si
+//to get the size of array list
+		//System.out.println(list.size());
+		
+		//to remove something from the array list
+		list.remove(2);
+		//System.out.println(list);
+		
+		//to change an entry in the array list
+		list.set(1, 74);
+		//System.out.println(list);
+		
+		//to parse array list using enhanced for loop
+		
+		System.out.println("printing using for each");
+		for (int e : list) {
+			System.out.println(e);
+		}
+		
+		for (int i=0; i<list.size();i++) {
+			System.out.println(list.get(i));
+		}*/
+ArrayList <Subject> sub = new ArrayList <Subject>();
+		
+		sub.add(new Subject("Malware",4));
+		sub.add(new Subject("Information Security",3));
+		sub.add(new Subject("Cloud security",3));
+		sub.add(new Subject("Data Mining",4));
+		sub.add(new Subject("Data Science",3));
+		sub.add(new Subject("Web Security",4));
+		
+		
+		for (Subject e : sub) {
+			System.out.print(e.name + "\t");
+			System.out.println(e.creditHours);
+		}
+		
+		
+		for (int i=0; i<sub.size();i++) {
+			System.out.print(sub.get(i).name)
+	System.out.println(sub.get(i).creditHours);
+		}		
+		
+	}
+}

@@ -1,0 +1,61 @@
+	folder name : Pizza ordering system
+
+1. three classes (point of sale, topping, pizza application)
+2. keep these three classes in three different packages (mypizza.pos, mypizza.top, mypizza.app)
+
+3. pizza application class has the main method
+4. topping class is used in point of sale class as composition
+5. topping class
+	//states 
+	1. topping combination //final - static (static block processing)
+	2. topping pepperoni
+	3. topping pineapple
+	4. topping tikka
+	5. topping mushroom
+	6. topping corn
+	7. topping black olives
+
+//6 constructors
+
+
+6. point of sale class
+	//states
+	1. crust	//static - set the value (regular bread)
+	2. size		//lets set this using constructor
+	3. price	//final 
+	4. order date 	//static - Local Date //private
+	5. extra topping 
+	6. alergies     
+	7. take one variable of topping class for use here
+
+7. what can be made final and static?
+
+8. data hiding and encapsulation.
+
+9. customer uses pizza application and place order
+
+10. //first way is to order pizza using size and topping
+    //second way is to order pizza using size, topping, extra topping
+    //third way is to order pizza using size, topping, extra topping, allergies
+    //fourth way is to order pizza using size, topping, allergies 		//parameters shuffle
+
+//using constructor
+//array list - count---
+// Topping top = new Topping ();
+
+
+//within 5 minutes of the order
+    //customer requests a change in the order / edit
+
+    //1. topping change 
+    //2. size change
+    //3. number of pizza change
+    //4. extra topping
+    
+    changeRequest();
+    editOrder();
+    changeOrder();
+    modifyOrder();
+
+    //1. number of parameters different 2. order of parameters different 3. return type
+    //three to four different methods to handle change requests

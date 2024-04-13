@@ -1,0 +1,30 @@
+Main Application 
+package week2;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		//outside world, implementation of the real-world object is not entrusted
+		
+		System.out.println("Creating a car object.");
+		
+		//creating a new Car object
+		Car hondaCity = new Car();
+		
+		//accessing Car class state
+		System.out.println(hondaCity.manufacturerName = "Honda");
+		System.out.println(hondaCity.color = "White");
+		System.out.println(hondaCity.numberOfSeats = 5);
+		
+		
+//accessing Car class methods
+		System.out.print("You are in gear : ");
+		System.out.println(hondaCity.gearChange(2));
+		
+		hondaCity.speedUp(120.5);
+		hondaCity.showSpeed();		
+		
+	}
+
+}
